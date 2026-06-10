@@ -1,29 +1,29 @@
-Git s’utilise principalement via la **ligne de commande (console/terminal)** plutôt que via une interface graphique, car cela permet d’accéder à toutes les commandes, d’avoir une méthode universelle et de mieux comprendre le fonctionnement des outils de développement.
+Git s’utilise principalement via la ligne de commande (console/terminal) plutôt que via une interface graphique, car cela permet d’accéder à toutes les commandes, d’avoir une méthode universelle et de mieux comprendre le fonctionnement des outils de développement.
 
-La **console** est une interface en ligne de commande qui permet de donner des instructions directement à l’ordinateur. On y utilise des commandes comme :
+La console est une interface en ligne de commande qui permet de donner des instructions directement à l’ordinateur. On y utilise des commandes comme :
 
-* `pwd` : afficher le dossier actuel
-* `ls` : lister les fichiers
-* `cd` : changer de dossier
-* `mkdir` : créer un dossier
-* `touch` : créer un fichier
-* `mv` : déplacer ou renommer un fichier
+* pwd : afficher le dossier actuel
+* ls : lister les fichiers
+* cd : changer de dossier
+* mkdir : créer un dossier
+* touch : créer un fichier
+* mv : déplacer ou renommer un fichier
 
 Ces commandes varient selon le système (Windows, Linux, Mac), mais les commandes Git restent identiques pour tous.
 
 Pour installer Git, il suffit de le télécharger depuis le site officiel ou via Git for Windows, puis de suivre l’installation avec les options par défaut.
 
-Une fois installé, il faut le **configurer** avec ton identité :
+Une fois installé, il faut le configurer avec ton identité :
 
-* `git config --global user.name "Ton Nom"`
-* `git config --global user.email "ton@email.com"`
+* git config --global user.name "Ton Nom"
+* git config --global user.email "ton@email.com"
 
 Ces informations sont utilisées pour identifier les auteurs des modifications dans les projets.
 
 On peut vérifier la configuration avec :
 
-* `git config user.name`
-* `git config user.email`
+* git config user.name
+* git config user.email
 
 En résumé : la console permet d’utiliser Git efficacement, Git doit être installé via son site officiel, et il doit être configuré avec un nom et un email avant utilisation.
 
